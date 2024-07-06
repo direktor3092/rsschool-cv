@@ -1,1 +1,157 @@
+html {
+    scroll-behavior: smooth;
+    }
 
+.container{
+    max-width: 1440px;
+    margin:0 auto;
+    }
+
+
+    @import url("https://fonts.googleapis.com/css?family=Montserrat:700,900&subset=cyrillic");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i&subset=cyrillic');
+
+@keyframes header_anim {
+  from {
+    transform: translateX(-120%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+/*--------------------------HEADER-----------------------------------*/
+
+.ul{
+    display: flex;
+}
+
+.nav{
+    margin-left: 40px;
+    padding-left: 40px;
+}
+
+header{
+display: flex;
+background-color:black;
+}
+
+.face{
+padding: 20px;
+padding-left: 170px;
+    margin: 20px 10px 20px 40px;
+}
+
+.item{
+    margin-top:70px ; 
+   padding: 15px;
+   padding-left: 40px; 
+   justify-content: space-between;
+   font-size: 24px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+text-decoration: none;
+color: white;
+}
+
+a:hover {
+    box-shadow: 0 0 5px 1px;
+   } 
+
+
+   /*--------------------------section_1-----------------------------------*/
+
+   .hello{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    padding: 20px 30px;
+    margin: 90px auto;
+    transform: translateX(0);
+  animation-name: header_anim;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  text-transform: uppercase;
+  color: black;
+  align-self: center;
+  font-weight: 500;
+  
+   }
+
+   /*--------------------------section_2-----------------------------------*/
+
+   h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    padding: 10px 30px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+
+   }
+
+   p, .contacts, .skills{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    padding: 20px 30px;
+    text-align: left;
+
+   }
+   pre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+padding-left: 20px;
+   }
+
+.bottom{
+height: 188px;
+background-color: white;
+}
+
+.project_lint{
+    color: red;
+}
+
+
+/*====================================footer==================================*/
+
+.footer{
+    display: flex;
+    background-color: black;
+}
+.logo{
+width: 50%;
+height: 70%;
+}
+
+.footer_link{
+
+    color: white;
+}
+
+.el{
+    justify-content: space-between;
+    padding-left: 250px;
+    font-size: 24px;
+   font-family: Arial, Helvetica, sans-serif;
+   padding-top: 40px;
+}
+
+.footer_link{
+
+    margin-top: 60px;
+}
+
+.last{
+    justify-content: space-between;
+    padding-left: 350px;
+    font-size: 24px;
+   font-family: Arial, Helvetica, sans-serif;
+   padding-top: 40px;
+    text-align: center;
+}
