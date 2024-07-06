@@ -1,1 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>CV</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="./IMG_3437.jpg" alt="face" class="face" title="Lexa">
+            <nav class="nav">
+                <ul class="ul">
+                    <li class="item"><a href="#About">About</a></li>
+                    <li class="item"><a href="#Contacts">Contacts</a></li>
+                    <li class="item"><a href="#Skills">Skills</a></li>
+                    <li class="item"><a href="#Code">Code</a></li>
+                    <li class="item"><a href="#Projects">Projects</a></li>
+                    <li class="item"><a href="#Education">Education</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <ul>
+                <li>
+                    <h1 class="hello">Hello World!</h1>
+                </li>
+                <li>
+                    <h2 id="About">About</h2>
+                    <p>I like to play the guitar</p>
+                </li>
+                <li>
+                    <h2 id="Contacts">Contacts</h2>
+                    <ul>
+                        <li class="contacts">tel: +375-25-921-28-77</li>
+                        <li class="contacts">email: direktor3092@gmail.com</li>
+                    </ul>
+                    <!-- <p> tel: +375-25-921-28-77</p>
+				<p> email: direktor3092@gmail.com</p> -->
+                </li>
+                <li>
+                    <h2 id="Skills">Skills</h2>
+                    <ul>
+                        <li class="skills">tel: +375-25-921-28-77</li>
+                        <li class="skills">email: direktor3092@gmail.com</li>
+                        <li class="skills">tel: +375-25-921-28-77</li>
+                        <li class="skills">email: direktor3092@gmail.com</li>
+                        <li class="skills">tel: +375-25-921-28-77</li>
+                    </ul>
+                    <!-- <p>HTML</p>
+                    <p>CSS</p>
+                    <p>Javascript</p>
+                    <p>Git/Github</p>
+                    <p>SCSS</p> -->
+                </li>
+                <li>
+                    <h2 id="Code">Code</h2>
+                    <pre>
+					<code> 
+						module.exports = function towelSort (matrix) {
+
+							if (matrix === undefined || matrix.length === 0) {
+							  return [];
+							};
+						  
+							let res = [];
+						  
+							matrix.forEach((value, index) => {
+							  if (Array.isArray(value)) {
+								if(index % 2 === 0){
+								res = [...res, ...value];
+								}else{
+								  res = [...res, ...value.reverse()];
+								}
+							  }
+							})
+						  
+							return res
+						  }
+					  </code>
+					</pre>
+                </li>
+                <li>
+                    <h2 id="Projects">Projects</h2>
+                    <p>A quiz application for recognizing birds by their voices: <a class="project_lint"
+                            href="https://direktor3092-songbird.netlify.app/#en">click here</a></p>
+                </li>
+                <li>
+                    <h2 id="Education">Education</h2>
+                    <p>Higher education economist manager, english level is A2</p>
+                </li>
+            </ul>
+            <div class="bottom"></div>
+        </main>
+
+        <footer class="footer">
+            <div class="el"><a href="https://github.com/direktor3092" class="footer_link">Link to my github</a></div>
+            <div class="el"><a href="https://rs.school/js/"><img src="./card_original.jpg" alt="logo" class="logo"></a>
+            </div>
+            <p class="last">©2023</p>
+        </footer>
+
+    </div>
+
+
+</body>
+
+</html>
