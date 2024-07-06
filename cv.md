@@ -31,25 +31,4 @@ function towelSort (matrix) {
   })
   return res
 }
-```
-***
-<a id="my_experience">My experience:</a>
-: At the moment, my most difficult project is: https://direktor3092-jsfepreschool2022q2.netlify.app
 
-To implement it, I used:
- * _element search methods_
- * _data output to the page_
- * _working with date and time_
- * _working with audio_
- * _saving data in local storage_
- * _using recursive setTimeout_
- * _working with asynchronous requests_
-
- <a id="education">Education:</a>
-: I graduated from The Rolling Scopes Pre-School.
-Here is my certificate: https://app.rs.school/certificate/ieizd8sd
-
-<a id="english">English:</a>
-: A2
-
-[Up&uArr;](#up)
