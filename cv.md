@@ -3,7 +3,7 @@
 **Frontend Developer**  
 Минск, Беларусь  
 [GitHub](https://github.com/direktor3092)  
-[Telegram](@direktor3092)  
+[Telegram](https://t.me/Alexey_Shakhov)  
 Discord: @direktor3092
 
 ## О себе
