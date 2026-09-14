@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV — Алексей Шахов</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="avatar">
+                <img src="assets/photo.webp" alt="Фото Алексея Шахова">
+            </div>
+            <div class="header-info">
+                <h1>Алексей Шахов</h1>
+                <p class="subtitle">Full-stack developer • Минск, Беларусь</p>
+                <ul class="contacts">
+                    <li><a href="https://github.com/direktor3092" target="_blank">🐙 GitHub</a></li>
+                    <li><a href="https://t.me/Alexey_Shakhov" target="_blank">✈️ Telegram</a></li>
+                    <li><a href="mailto:direktor3092@gmail.com">📧 Email</a></li>
+                    <li>💬 Discord: @direktor3092</li>
+                </ul>
+            </div>
+        </header>
+        <nav class="nav">
+            <ul>
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#skills">Навыки</a></li>
+                <li><a href="#code">Пример кода</a></li>
+                <li><a href="#projects">Проекты</a></li>
+                <li><a href="#education">Образование</a></li>
+                <li><a href="#english">Английский</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="about">
+                <h2>Обо мне</h2>
+                <p>
+                    Разрабатываю веб-приложения (SPA, игры, адаптивные сайты).
+                    Специализируюсь на чистом JavaScript (ES6+), TypeScript, работе с асинхронным кодом и верстке.
+                    Уделяю особое внимание чистой архитектуре, семантике кода и производительности.
+                </p>
+            </section>
+
+            <section id="skills">
+                <h2>Навыки</h2>
+                <ul>
+                    <li><strong>HTML5/CSS3</strong> — семантическая вёрстка, Flexbox, Grid, препроцессор SCSS,
+                        валидность, доступность</li>
+                    <li><strong>JavaScript (ES6+)</strong> — чистый JS, DOM API, Promises, Async/Await, ООП, Event Loop
+                    </li>
+                    <li><strong>TypeScript</strong> — строгая типизация, generics, type guards, интерфейсы</li>
+                    <li><strong>Git & GitHub</strong> — Git Flow, Feature Branching, Pull Requests, Code Review,
+                        Conventional Commits</li>
+                    <li><strong>Vite / Webpack</strong> — сборка проектов</li>
+                    <li><strong>Node.js</strong> — работа с файловой системой (fs, streams), написание CLI-скриптов</li>
+                    <li><strong>React</strong> — базовый уровень (компоненты, хуки, управление состоянием)</li>
+                </ul>
+            </section>
+            <section id="code">
+                <h2>Пример кода (Codewars)</h2>
+                <p>Задача: «Find the odd int» — найти число, которое встречается нечётное количество раз.</p>
+                <pre><code>
+function findOdd(arr) {
+  return arr.reduce((a, b) => a ^ b, 0);
+}
+        </code></pre>
+                <p>Решение использует XOR — компактно и эффективно.</p>
+            </section>
+            <section id="projects">
+                <h2>Проекты</h2>
+                <ul>
+                    <li>
+                        <strong>Async Race [TypeScript, REST API, HTML5 Canvas, Async/Await]</strong> — SPA для гонок с анимацией, CRUD, пагинацией и сортировкой.
+                        <a href="https://github.com/direktor3092/async-race" target="_blank">GitHub</a>
+                    </li>
+                    <li>
+                        <strong>Podcast Player [JavaScript (ES6+), Web Audio API, LocalStorage]</strong> — плеер с плейлистом, localStorage, поиск.
+                        <a href="https://github.com/direktor3092/podcast-player" target="_blank">GitHub</a>
+                    </li>
+                    <li>
+                        <strong>Not Fight Club [JavaScript / TypeScript, ООП, LocalStorage]</strong> — пошаговая игра с зонами атаки/защиты, критами и логом.
+                        <a href="https://github.com/direktor3092/not-fight-club" target="_blank">GitHub</a>
+                    </li>
+                    <li>
+                        <strong>Shelter [HTML5, CSS, JavaScript]</strong> — вёрстка по Figma, адаптив, Pixel Perfect.
+                        <a href="https://github.com/direktor3092/shelter" target="_blank">GitHub</a>
+                    </li>
+                    <li>
+                        <strong>HTML Builder [Node.js, File System API, Streams]</strong> — серия Node.js скриптов для работы с файловой системой.
+                        <a href="https://github.com/direktor3092/HTML-builder" target="_blank">GitHub</a>
+                    </li>
+                </ul>
+            </section>
+            <section id="education">
+                <h2>Образование</h2>
+                <ul>
+                    <li><strong>RS School Bootcamp</strong> (2026) — 11 место из 282, 8/9 заданий на максимум.</li>
+                    <li><strong>Московский государственный университет экономики, статистики и информатики
+                            (МЭСИ)</strong> — экономист-менеджер (высшее образование).</li>
+                </ul>
+            </section>
+            <section id="english">
+                <h2>Английский язык</h2>
+                <p><strong>Уровень:</strong> Intermediate (B1).</p>
+                <p>Уверенное чтение технической документации, ведение рабочей переписки, просмотр англоязычных лекций и
+                    профессиональных материалов.</p>
+            </section>
+        </main>
+        <footer>
+            <p>
+                <a href="https://github.com/direktor3092" target="_blank">GitHub</a> •
+                <span>2026</span> •
+                <a href="https://rs.school/courses/javascript" target="_blank">
+                    <img src="./assets/rs_logo.webp" alt="RS School" class="rs-logo">
+                </a>
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
